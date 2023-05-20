@@ -8,11 +8,19 @@ body {
     height: auto;
 }
 
-#title {
+#title,
+.recipe-box p {
     font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+}
+
+#title:hover {
+    color: red;
 }
 
 .gif {
@@ -20,9 +28,36 @@ body {
     height: auto;
 }
 
-.container ul {
-    list-style:none;
+.list-container,
+.recipe-box {
+    display: inline-block;
+}
+
+.list-container,
+img {
+    border-radius: 10px;
+}
+
+.list-container {
+    background-color: white;
+}
+
+.recipe-box {
+    margin: 15px;
+}
+
+.recipe-box p {
     font-size: 20px;
+}
+
+img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+img:hover {
+    border: 10px solid #FFA458;
 }
 
 /* RECIPES PAGES */
@@ -35,3 +70,12 @@ body {
 h2 {
     font-size: 30px;
 }
+
+
+/* Grouping selector can group ANY TYPE of selectors and ANY NUMBER of them.
+
+#title,
+div ul {
+    background-color: red;
+}
+*/
