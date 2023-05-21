@@ -54,13 +54,12 @@ img {
     font-size: 20px;
 }
 
-img {
-    border-radius: 10px;
+.recipe-box img {
     width: 250px;
     height: 250px;
 }
 
-img:hover {
+.recipe-box img:hover {
     border: 10px solid #FFA458;
 }
 
