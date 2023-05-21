@@ -14,7 +14,6 @@ body {
 }
 
 #title {
-    text-align: center;
     font-size: 40px;
     font-weight: 700;
 }
@@ -29,12 +28,9 @@ body {
 }
 
 .list-container {
+    background-color: white;
     width: 1000px;
     margin: 0 auto;
-}
-
-.recipe-box {
-    display: inline-block;
 }
 
 .list-container,
@@ -42,15 +38,9 @@ img {
     border-radius: 10px;
 }
 
-.list-container {
-    background-color: white;
-}
-
 .recipe-box {
+    display: inline-block;
     margin: 15px;
-}
-
-.recipe-box p {
     font-size: 20px;
 }
 
