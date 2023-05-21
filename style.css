@@ -28,7 +28,11 @@ body {
     height: auto;
 }
 
-.list-container,
+.list-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .recipe-box {
     display: inline-block;
 }
